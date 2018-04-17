@@ -1,0 +1,22 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "teste houston",
+  "main": "h",
+  "dependencies": {
+    "johnny-five": "^0.9.39"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ssss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "werrr"
+  },
+  "keywords": [
+    "ty"
+  ],
+  "author": "houston",
+  "license": "UNLICENSED"
+}
