@@ -12,6 +12,7 @@ Neste repositório exponho pequenos projetos de IoT, usando sensores, atuadores 
 
 [![Alt text](https://i.ytimg.com/vi/bxiT6m4V0zQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAS1DTp2p8pIziuU-4SzAAVMacMw)](https://www.youtube.com/watch?v=bxiT6m4V0zQ&list=PLB3JsvtYkUUsx2X43MCU6g3JFl168cwRX)             [![Alt text](https://i.ytimg.com/vi/eRzkdTaYYJM/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAmyjIfCawxpc4xU8EF_3RDss9i3g)](https://www.youtube.com/watch?v=eRzkdTaYYJM&list=PLB3JsvtYkUUsx2X43MCU6g3JFl168cwRX&index=3&t=0s)
 
+```
 * **Projetos** 
 
     * DisplayLcd 
@@ -26,3 +27,4 @@ Neste repositório exponho pequenos projetos de IoT, usando sensores, atuadores 
     * PushButonPullDown
     * PushButonPullUp
     * SensorPir
+```
