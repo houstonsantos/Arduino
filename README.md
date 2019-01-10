@@ -44,7 +44,7 @@ para acender e apagar um LED como um dímer. Note que as entradas analógicas do
 (valores de 0 a 1023) mas as saídas analógicas por PWM têm uma resolução de 8 bits (valores de 0 a 255). É por isso 
 que é necessária a função 'map', para "mapear" os valores de modo que se mantenham proporcionais.
 
-```C
+```C++
  outputValue = map(sensorValue, 0, 1023, 0, 255);
  ```
 
@@ -67,9 +67,9 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
 
 Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via tcp/ip. 
 
-❗️ Informe aqui o mac dos seu  e o ip que desejar(disponivél) na faixa de sua rede.
+❗️ Informe aqui o mac dos seu shield e o ip que desejar(disponivél) na faixa de sua rede.
 
-```C
+```C++
 // IP & MAC para shield ethernet 
 byte myMac[] = { 0x90, 0xA2, 0xDA, 0x0F, 0x2C, 0xDE };				
 byte myIp[] = { 192, 168, 25, 155 };
