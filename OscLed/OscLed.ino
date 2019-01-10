@@ -1,5 +1,4 @@
-/**
- * @brief Acionamento de led com utilização do protocolo OSC para comunicação com o Arduino via tcp/ip.    
+/**   
  * @date 04/01/2016
  * @author Houston Santos
  */

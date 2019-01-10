@@ -1,5 +1,4 @@
 /**
- * @brief Sensor Pir - Led acendera quando houver movimento no sensor Pir. 
  * @date 20/10/2014
  * @author Houston Santos
  */

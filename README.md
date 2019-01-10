@@ -63,12 +63,38 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
  Imprime na porta serial o valor lido da porta do Arduino associada ao led.
 
 
+### OscLed
+
+Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via tcp/ip. 
+
+❗️ Informe aqui o mac dos seu  e o ip que desejar(disponivél) na faixa de sua rede.
+
+```C
+// IP & MAC para shield ethernet 
+byte myMac[] = { 0x90, 0xA2, 0xDA, 0x0F, 0x2C, 0xDE };				
+byte myIp[] = { 192, 168, 25, 155 };
+```
+
+
 ### Osc
 
+Neste projeto temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodejs, usando comunicação serial e tambem um WebService 
+
+```
+.
+├── NodeOsc.js
+├── OscEmitterReceiver.js
+└── ServerOscArduino.js
+
+0 directories, 3 files
+```
 
 ### OscLed
 ### OscLedInterruptor
 ### OscLedRgbDimmer
+### SensorPir
+
+Led acendera quando houver movimento no sensor Pir. 
 
 
 
