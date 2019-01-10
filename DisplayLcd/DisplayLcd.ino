@@ -1,5 +1,4 @@
-/**
- * @brief Exemplo de utilização de um Display Lcd 16x2 com movimentação do texo.    
+/**    
  * @date 17/09/2014
  * @author Houston Santos
  */

@@ -1,5 +1,4 @@
-/**
- * @brief Imprimindo em um Display Lcd 16x2 a leitura da porta Serial. Será impresso no display o que for digitado no teclado.    
+/** 
  * @date 17/09/2014
  * @author Houston Santos
  */
