@@ -52,7 +52,7 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
 
 Exemplo de utilização do modulo johnny-five com Arduino via serial. 
 
-❗️ Você deve ter o nodejs e o gerenciador de pacotes do node o npm instalados.
+❗️ Você deve ter o [Nodejs](https://nodejs.org/en/) e o gerenciador de pacotes do node o [npm](https://www.npmjs.com/) instalados, para instalar o modulos do arquivo packge.json use o comando:
 
  ```javascript
  npm install
