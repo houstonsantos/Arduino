@@ -36,6 +36,18 @@ Imprimindo em um display lcd 16x2 a leitura da porta serial. Será impresso no d
 ![alt text](https://github.com/houstonsantos/Arduino/blob/master/img/display.png "Display")
 
 
+### EntradaAnalogicaSaidaPwm
+
+Leitura Analógica Mapeada para uma saída PWM - Este exemplo mostra como ler um pino de uma entrada analógica, mapear 
+o resultado para um intervalo de 0 a 255, e usar esse resultado para definir a modulação PWM de um pino de saída 
+para acender e apagar um LED como um dímer. Note que as entradas analógicas do Arduino têm uma resolução de 10 bits	
+(valores de 0 a 1023) mas as saídas analógicas por PWM têm uma resolução de 8 bits (valores de 0 a 255). É por isso 
+que é necessária a função 'map', para "mapear" os valores de modo que se mantenham proporcionais.
+
+`Arduino`
+```
+ outputValue = map(sensorValue, 0, 1023, 0, 255);
+ ```
 
 
 
