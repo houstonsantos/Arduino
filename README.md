@@ -33,7 +33,7 @@ Imprimindo em um display lcd 16x2 a leitura da porta serial. Será impresso no d
 
 ❗️ Montagem do ```display 16x2```:
 
-
+![alt text](https://github.com/houstonsantos/Arduino/blob/master/img/display.png "Display")
 
 
 
