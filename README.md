@@ -44,8 +44,7 @@ para acender e apagar um LED como um dímer. Note que as entradas analógicas do
 (valores de 0 a 1023) mas as saídas analógicas por PWM têm uma resolução de 8 bits (valores de 0 a 255). É por isso 
 que é necessária a função 'map', para "mapear" os valores de modo que se mantenham proporcionais.
 
-`Arduino`
-```
+```Arduino
  outputValue = map(sensorValue, 0, 1023, 0, 255);
  ```
 
