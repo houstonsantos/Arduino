@@ -48,6 +48,16 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
  outputValue = map(sensorValue, 0, 1023, 0, 255);
  ```
 
+ ### JohnnyFive
+
+Exemplo de utilização do modulo johnny-five com Arduino via serial. 
+
+❗️ Você deve ter o nodejs e o gerenciador de pacotes do node o npm instalados.
+
+ ```javascript
+ npm install
+ ```
+
 
 
 

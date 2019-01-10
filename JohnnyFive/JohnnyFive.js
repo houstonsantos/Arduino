@@ -1,5 +1,4 @@
 /**
- * @brief Exemplo de utilização do modulo johnny-five com Arduino via serial. 
  * @date 30/05/2016
  * @author Houston Santos
  */
