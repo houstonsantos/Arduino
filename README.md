@@ -24,10 +24,28 @@ Projetos de IoT usando sensores, atuadores e diferentes conexões como bluetooth
 
 ### DisplayLcd
 
-Exemplo de utilização de um Display Lcd 16x2 com movimentação do texo.
+Exemplo de utilização de um display lcd 16x2 com movimentação do texo.
 
 
 ### DisplayLcdSerial
+
+Imprimindo em um display lcd 16x2 a leitura da porta serial. Será impresso no display o que for digitado no teclado. 
+
+❗️ Montagem do ```display 16x2```:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h3>Projetos realizados</h3>
 
