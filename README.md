@@ -50,7 +50,7 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
 
  ### JohnnyFive
 
-Exemplo de utilização do modulo johnny-five com Arduino via serial. 
+Exemplo de utilização do modulo johnny-five com Arduino via serial, para controlo das portas digitais. 
 
 ❗️ Você deve ter o [Nodejs](https://nodejs.org/en/) e o gerenciador de pacotes do node o [npm](https://www.npmjs.com/) instalados, para instalar o modulos do arquivo packge.json use o comando:
 
@@ -58,6 +58,17 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial.
  npm install
  ```
 
+ ### LaituraSerial
+
+ Imprime na porta serial o valor lido da porta do Arduino associada ao led.
+
+
+### Osc
+
+
+### OscLed
+### OscLedInterruptor
+### OscLedRgbDimmer
 
 
 

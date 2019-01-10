@@ -1,5 +1,4 @@
-/**
- * @brief Leitura Serial - Imprime na porta serial o valor lido da porta do Arduino associada ao led   
+/**  
  * @date 01/01/2016
  * @author Houston Santos
  */
