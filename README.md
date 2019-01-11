@@ -65,9 +65,9 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
 
 ### OscLed
 
-Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via tcp/ip. 
+Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via TCP/IP. 
 
-❗️ Informe aqui o mac dos seu shield e o ip que desejar(disponivél) na faixa de sua rede.
+❗️ Informe aqui o MAC dos seu shield ethernet e o ip que desejar(disponivél) na faixa de sua rede.
 
 ```C++
 // IP & MAC para shield ethernet 
