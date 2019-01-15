@@ -2,7 +2,7 @@
 ![alt text](https://github.com/houstonsantos/Arduino/blob/master/img/iot.png "Logo Title Text 2")
 
 
- <h1>IoT - Arduino</h1>
+ # IoT - Arduino
    
 Projetos de IoT usando sensores, atuadores e diferentes conexões como bluetooth, serial e TCP/IP, com protocolos http, OSC, WebSocket, MQTT e etc. Bibliotecas como JohnnyFive com NodeJS fazendo uso do JavaScript e outras liguagens, a intensão e demostrar diversas possibilidades de integrações entre divices e plataformas.
 
@@ -22,12 +22,12 @@ Projetos de IoT usando sensores, atuadores e diferentes conexões como bluetooth
     * PushButonPullUp
     * SensorPir
 
-### DisplayLcd
+## DisplayLcd
 
 Exemplo de utilização de um display lcd 16x2 com movimentação do texo.
 
 
-### DisplayLcdSerial
+## DisplayLcdSerial
 
 Imprimindo em um display lcd 16x2 a leitura da porta serial. Será impresso no display o que for digitado no teclado. 
 
@@ -36,7 +36,7 @@ Imprimindo em um display lcd 16x2 a leitura da porta serial. Será impresso no d
 ![alt text](https://github.com/houstonsantos/Arduino/blob/master/img/display.png "Display")
 
 
-### EntradaAnalogicaSaidaPwm
+## EntradaAnalogicaSaidaPwm
 
 Leitura Analógica Mapeada para uma saída PWM - Este exemplo mostra como ler um pino de uma entrada analógica, mapear 
 o resultado para um intervalo de 0 a 255, e usar esse resultado para definir a modulação PWM de um pino de saída 
@@ -48,7 +48,7 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
  outputValue = map(sensorValue, 0, 1023, 0, 255);
  ```
 
- ### JohnnyFive
+ ## JohnnyFive
 
 Exemplo de utilização do modulo johnny-five com Arduino via serial, para controlo das portas digitais. 
 
@@ -58,12 +58,12 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
  npm install
  ```
 
- ### LaituraSerial
+ ## LaituraSerial
 
  Imprime na porta serial o valor lido da porta do Arduino associada ao led.
 
 
-### OscLed
+## OscLed
 
 Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via TCP/IP. 
 
@@ -80,7 +80,7 @@ byte myIp[] = { 192, 168, 25, 155 };
 ```
 
 
-### Osc
+## Osc
 
 Temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodejs, usando comunicação serial e WebService. 
 
@@ -93,20 +93,20 @@ Temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodej
 0 directories, 3 files
 ```
 
-## NodeOsc
+### NodeOsc
 
 Neste projeto usaremos JavaScript para comunição via TCP/IP fazendo uso do protocolo OSC, usando o modulo [node-osc](https://libraries.io/npm/node-osc) do ``Nodejs`` em uma arquitera cliente servidor. Onde o cliente seria um dispositivel móvel.
 
 
-## OscEmitterReceiver
+### OscEmitterReceiver
 
 
-## ServerOscArduino
+### ServerOscArduino
 
 
-### OscLedInterruptor
-### OscLedRgbDimmer
-### SensorPir
+## OscLedInterruptor
+## OscLedRgbDimmer
+## SensorPir
 
 Led acendera quando houver movimento no sensor Pir. 
 
