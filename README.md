@@ -4,7 +4,7 @@
 
  <h1>IoT - Arduino</h1>
    
-Projetos de IoT usando sensores, atuadores e diferentes conexões como bluetooth (serial) e TCP/IP, com protocolos http, OSC, WebSocket, MQTT e etc. Bibliotecas como JohnnyFive com NodeJS fazendo uso do JavaScript e outras liguagens, a intensão e demostrar diversas possibilidades de integrações entre divices e plataformas.
+Projetos de IoT usando sensores, atuadores e diferentes conexões como bluetooth, serial e TCP/IP, com protocolos http, OSC, WebSocket, MQTT e etc. Bibliotecas como JohnnyFive com NodeJS fazendo uso do JavaScript e outras liguagens, a intensão e demostrar diversas possibilidades de integrações entre divices e plataformas.
 
 
 * **Projetos** 
@@ -52,7 +52,7 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
 
 Exemplo de utilização do modulo johnny-five com Arduino via serial, para controlo das portas digitais. 
 
-❗️ Você deve ter o [Nodejs](https://nodejs.org/en/) e o gerenciador de pacotes do node o [npm](https://www.npmjs.com/) instalados, para instalar o modulos do arquivo packge.json use o comando:
+❗️ Você deve ter o [Nodejs](https://nodejs.org/en/) e o gerenciador de pacotes do node o [npm](https://www.npmjs.com/) instalados, para instalar os modulos do arquivo packge.json use o comando:
 
  ```javascript
  npm install
@@ -67,10 +67,14 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
 
 Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via TCP/IP. 
 
-❗️ Informe aqui o MAC dos seu shield ethernet e o ip que desejar(disponivél) na faixa de sua rede.
+❗️ Para realizar a comunição via OSC, você precisa do [TouchOSC Editor](https://hexler.net/software/touchosc) para seu pc, nele você fará o layout que irar compilar em seu celular, e no seu celular você irar instalar TouchOSC.
+
+Abaixo deixo dois links onde ensina todo procedimento para utilização das ferramentas:
+- [Parte 1](http://blog.eletronlivre.com.br/search?updated-max=2012-12-23T06:07:00-08:00&max-results=7)
+- [Parte 2](http://blog.eletronlivre.com.br/2012/12/automacao-residencial-com-arduino-na.html)
 
 ```C++
-// IP & MAC para shield ethernet 
+// Informe aqui o MAC dos seu shield ethernet e o ip que desejar(disponivél) na faixa de sua rede.
 byte myMac[] = { 0x90, 0xA2, 0xDA, 0x0F, 0x2C, 0xDE };				
 byte myIp[] = { 192, 168, 25, 155 };
 ```
@@ -78,7 +82,7 @@ byte myIp[] = { 192, 168, 25, 155 };
 
 ### Osc
 
-Neste projeto temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodejs, usando comunicação serial e tambem um WebService 
+Temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodejs, usando comunicação serial e WebService. 
 
 ```
 .
@@ -89,7 +93,17 @@ Neste projeto temos 3 experimentos usando JavaScript com algumas bilbiotecas(mod
 0 directories, 3 files
 ```
 
-### OscLed
+## NodeOsc
+
+Neste projeto usaremos JavaScript para comunição via TCP/IP fazendo uso do protocolo OSC, usando o modulo [node-osc](https://libraries.io/npm/node-osc) do ``Nodejs`` em uma arquitera cliente servidor. Onde o cliente seria um dispositivel móvel.
+
+
+## OscEmitterReceiver
+
+
+## ServerOscArduino
+
+
 ### OscLedInterruptor
 ### OscLedRgbDimmer
 ### SensorPir
