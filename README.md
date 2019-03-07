@@ -50,7 +50,7 @@ que é necessária a função 'map', para "mapear" os valores de modo que se man
 
  ## JohnnyFive
 
-Exemplo de utilização do modulo johnny-five com Arduino via serial, para controlo das portas digitais. 
+Exemplo de utilização do modulo johnny-five com Arduino via serial para controle das portas digitais. 
 
 ❗️ Você deve ter o [Nodejs](https://nodejs.org/en/) e o gerenciador de pacotes do node o [npm](https://www.npmjs.com/) instalados, para instalar os modulos do arquivo packge.json use o comando:
 
@@ -67,7 +67,7 @@ Exemplo de utilização do modulo johnny-five com Arduino via serial, para contr
 
 Acionamento de led com utilização do protocolo [OSC](https://es.wikipedia.org/wiki/OpenSound_Control) para comunicação com o Arduino via TCP/IP. 
 
-❗️ Para realizar a comunição via OSC, você precisa do [TouchOSC Editor](https://hexler.net/software/touchosc) para seu pc, nele você fará o layout que irar compilar em seu celular, e no seu celular você irar instalar TouchOSC.
+❗️ Para realizar a comunição via OSC, você precisa do [TouchOSC Editor](https://hexler.net/software/touchosc) para seu pc, nele você fará o layout que irar compilar em seu celular, e no seu celular você irar instalar TouchOSC. Você tambem deve ter para todos seus projetos usando **OSC** a biblioteca **ArdOSC**, esté projeto serve como base para todos os demais onde usaremos **OSC**.
 
 Abaixo deixo dois links onde ensina todo procedimento para utilização das ferramentas:
 - [Parte 1](http://blog.eletronlivre.com.br/search?updated-max=2012-12-23T06:07:00-08:00&max-results=7)
@@ -95,14 +95,25 @@ Temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodej
 
 ### NodeOsc
 
-Neste projeto usaremos JavaScript para comunição via TCP/IP fazendo uso do protocolo OSC, usando o modulo [node-osc](https://libraries.io/npm/node-osc) do ``Nodejs`` em uma arquitera cliente servidor. Onde o cliente seria um dispositivel móvel.
+Neste projeto usaremos JavaScript para comunição via TCP/IP fazendo uso do protocolo OSC, usando o modulo [node-osc](https://libraries.io/npm/node-osc) do ``Nodejs`` em uma arquitera cliente servidor. Onde terems troca de mensagens entre o Arduino e um computador.
 
+```
+O fonte está bem comentado, você deve ter seu Arduino ligado a rede, no meu exemplo utilizei um ethernet shield, lembrando que seu Arduino deve ter um código compilado como o projeto OscLed nele você ira tratar o envio e recebimento das mensagens. 
+```
 
 ### OscEmitterReceiver
+
+Assim como o projeto **NodeOsc** a diferença neste projeto são os modulos usados. O **osc-emitter** para emitir as mensagens e o **osc-receiver** para o recebimento.
 
 
 ### ServerOscArduino
 
+Neste exemplo temos um WebService em node com o uso do modulo **http** em nossa maquina, onde o mesmo irar receber uma mensagem por meio de uma url, tratar e repassar um comando ao Arduino por meio dos modulos **osc-emitter** e **osc-receiver**.
+
+```
+// URL com a mensagem para acionar o led.
+http://localhost:3000/led/liga
+```
 
 ## OscLedInterruptor
 ## OscLedRgbDimmer
