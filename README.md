@@ -93,9 +93,7 @@ Temos 3 experimentos usando JavaScript com algumas bilbiotecas(modulos) do Nodej
 
 Neste projeto usaremos JavaScript para comunição via TCP/IP fazendo uso do protocolo OSC, usando o modulo [node-osc](https://libraries.io/npm/node-osc) do ``Nodejs`` em uma arquitera cliente servidor. Onde terems troca de mensagens entre o Arduino e um computador.
 
-```
-O fonte está bem comentado, você deve ter seu Arduino ligado a rede, no meu exemplo utilizei um ethernet shield, lembrando que seu Arduino deve ter um código compilado como o projeto OscLed nele você ira tratar o envio e recebimento das mensagens. 
-```
+:warning: O fonte está bem comentado, você deve ter seu Arduino ligado a rede, no meu exemplo utilizei um ethernet shield, lembrando que seu Arduino deve ter um código compilado como o projeto OscLed nele você ira tratar o envio e recebimento das mensagens. 
 
 ### OscEmitterReceiver
 
